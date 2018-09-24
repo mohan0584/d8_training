@@ -1,0 +1,20 @@
+uuid: fbaafce5-4f20-403f-9e0b-ae8ea3ddc073
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_la
+  module:
+    - user
+id: user.user.field_la
+field_name: field_la
+entity_type: user
+bundle: user
+label: 'Last Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

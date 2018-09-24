@@ -1,0 +1,18 @@
+uuid: 3d59d9d8-47d1-4fb0-bb82-22e701e8c02f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Activity
+type: activity
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

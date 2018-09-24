@@ -1,0 +1,21 @@
+uuid: 5b006dc7-e88a-4712-875f-91620a42eafb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qualification
+    - node.type.activity
+  module:
+    - options
+id: node.activity.field_qualification
+field_name: field_qualification
+entity_type: node
+bundle: activity
+label: Qualification
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
