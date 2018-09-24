@@ -1,0 +1,19 @@
+uuid: eebe1686-1ce7-4468-8093-948a7986fd54
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rotator
+    - field.storage.block_content.field_i
+id: block_content.rotator.field_i
+field_name: field_i
+entity_type: block_content
+bundle: rotator
+label: Interval
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
